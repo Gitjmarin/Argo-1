@@ -4,7 +4,7 @@ metadata:
   name: my-nginx-deployment
       
 spec:
-  replicas: 2  # Number of desired pods
+  replicas: 4  # Number of desired pods
   selector:
     matchLabels:
       app: my-nginx
