@@ -17,4 +17,4 @@ spec:
       - name: my-nginx
         image: nginx:latest  # NGINX image
         ports:
-        - containerPort: 8081  # Expose port 80
+        - containerPort: 8084  # Expose port 80
