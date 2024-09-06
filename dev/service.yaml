@@ -9,4 +9,5 @@ spec:
   - protocol: TCP
     port: 80
     targetPort: 8888
-  type: LoadBalancer  # Expose as a LoadBalancer (suitable for cloud environments)
+#  type: LoadBalancer  # Expose as a LoadBalancer (suitable for cloud environments)
+  type: NodePort  # Expose as a LoadBalancer (suitable for cloud environments)
